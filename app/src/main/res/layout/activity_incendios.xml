@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Controller.Incendios_Activity">
+    tools:context=".Incendios_Activity">
 
     <include
         layout="@layout/action_bar_toolbar">
@@ -141,7 +141,7 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="4"
-                        android:text="1. Asegurar las inspecciones preuso de las unidades vehiculares desde el punto de partida según RITRAN."
+                        android:text="1. Garantizar el cumplimiento del programa de inspección y mantenimiento de las instalaciones eléctricas."
                         android:textColor="#000000" />
 
                     <CheckBox
@@ -192,7 +192,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="4"
                         android:textColor="#000000"
-                        android:text="2. Garantizar el cumplimiento del programa mantenimiento de las unidades vehiculares." />
+                        android:text="2. No realizar cambios o adaptaciones en las instalaciones eléctricas para respetar las cargas de los tableros de distribución.
+" />
 
                     <CheckBox
                         android:id="@+id/CheckBox_2_SI_Garantizar_Cumplimiento"
@@ -243,7 +244,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="4"
                         android:textColor="#000000"
-                        android:text="3. Garantizar el monitoreo de ubicación y control de velocidades mediante GPS. Contar con sistemas de alertas de exceso de velocidades." />
+                        android:text="3. Garantizar autorización individual de Trabajos en caliente (AITC) y de Trabajos de Aislamiento de Energía (AITAE)." />
 
                     <CheckBox
                         android:id="@+id/CheckBox_3_SI_Monitoreo_Ubicacion"
@@ -295,7 +296,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="4"
                         android:textColor="#000000"
-                        android:text="4. Garantizar el control de la prueba de alcotest previo a la conducción." />
+                        android:text="4. Garantizar el cumplimiento del Plan de mantenimiento de instalaciones GLP." />
 
                     <CheckBox
                         android:id="@+id/CheckBox_4_SI_Control_Alcotest"
@@ -346,7 +347,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="4"
                         android:textColor="#000000"
-                        android:text="5. Garantizar control de fatiga y somnolencia de los conductores (pulseras de calidad sueño)." />
+                        android:text="5. Asegurar la operatividad de los extintores instalados en el campamento (Inspecciones y mantenimientos preventivos)." />
 
                     <CheckBox
                         android:id="@+id/CheckBox_5_SI_Control_Somnolencia"
@@ -385,189 +386,6 @@
                 android:orientation="vertical"
                 android:paddingRight="10dp">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center_vertical"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:id="@+id/TextView_Validacion_Experiencia"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="4"
-                        android:textColor="#000000"
-                        android:text="6. Asegurar autorización, validación de experiencia y competencias." />
-
-                    <CheckBox
-                        android:id="@+id/CheckBox_6_SI_Validacion_Experiencia"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="  "
-                        app:layout_constraintLeft_toLeftOf="parent"
-                        app:layout_constraintRight_toRightOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/TextView_Cumple" />
-
-                    <CheckBox
-                        android:id="@+id/CheckBox_6_NO_Validacion_Experiencia"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="  " />
-
-                </LinearLayout>
-
-                <View
-                    android:id="@+id/divider8"
-                    android:layout_width="match_parent"
-                    android:layout_height="6dp"
-                    android:layout_marginTop="10dp"
-                    android:background="?android:attr/listDivider"
-                    android:paddingVertical="8dp" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="6dp"
-                android:gravity="center"
-                android:orientation="vertical"
-                android:paddingRight="10dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center_vertical"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:id="@+id/TextView_Comportamiento_Riesgoso"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="4"
-                        android:textColor="#000000"
-                        android:text="7. Monitoreo de los comportamientos riesgosos del sistema de CCTV de los conductores de transporte de personal." />
-
-                    <CheckBox
-                        android:id="@+id/CheckBox_7_SI_Comportamiento_Riesgoso"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="  "
-                        app:layout_constraintLeft_toLeftOf="parent"
-                        app:layout_constraintRight_toRightOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/TextView_Cumple" />
-
-                    <CheckBox
-                        android:id="@+id/CheckBox_7_NO_Comportamiento_Riesgoso"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="  " />
-
-                </LinearLayout>
-
-                <View
-                    android:id="@+id/divider11"
-                    android:layout_width="match_parent"
-                    android:layout_height="6dp"
-                    android:layout_marginTop="10dp"
-                    android:background="?android:attr/listDivider"
-                    android:paddingVertical="8dp" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="6dp"
-                android:gravity="center"
-                android:orientation="vertical"
-                android:paddingRight="10dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center_vertical"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:id="@+id/TextView_Vehiculo_VIP"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="4"
-                        android:textColor="#000000"
-                        android:text="8. Especificaciones técnicas del vehículo VTP" />
-
-                    <CheckBox
-                        android:id="@+id/CheckBox_8_SI_Vehiculo_VIP"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="  "
-                        app:layout_constraintLeft_toLeftOf="parent"
-                        app:layout_constraintRight_toRightOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/TextView_Cumple" />
-
-                    <CheckBox
-                        android:id="@+id/CheckBox_8_NO_Vehiculo_VIP"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="  " />
-
-                </LinearLayout>
-
-                <View
-                    android:id="@+id/divider10"
-                    android:layout_width="match_parent"
-                    android:layout_height="6dp"
-                    android:layout_marginTop="10dp"
-                    android:background="?android:attr/listDivider"
-                    android:paddingVertical="8dp" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="6dp"
-                android:gravity="center"
-                android:orientation="vertical"
-                android:paddingRight="10dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center_vertical"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:id="@+id/TextView_Plan_Rutas"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="4"
-                        android:textColor="#000000"
-                        android:text="9. Plan de rutas" />
-
-                    <CheckBox
-                        android:id="@+id/CheckBox_9_SI_Plan_Rutas"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="  "
-                        app:layout_constraintLeft_toLeftOf="parent"
-                        app:layout_constraintRight_toRightOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/TextView_Cumple" />
-
-                    <CheckBox
-                        android:id="@+id/CheckBox_9_NO_Plan_Rutas"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="  " />
-
-                </LinearLayout>
 
                 <View
                     android:id="@+id/divider9"
