@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Controller.PerdidaControl_Minero_Auxiliar_Activity">
+
+    <include
+        layout="@layout/action_bar_toolbar">
+    </include>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="62dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <!-- ========================================================= -->
+            <!-- ========================================================= -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingRight="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:gravity="end"
+                    android:paddingHorizontal="-10dp">
+
+                    <TextView
+                        android:id="@+id/TextView_Cumple"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="14dp"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text="Cumple"
+                        android:textAlignment="gravity"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:layout_weight="0"
+                        android:padding="6dp"
+                        android:textColor="#000000"
+                        android:text="No Cumple"
+                        android:textAlignment="textEnd"
+                        android:textSize="12dp" />
+
+                </LinearLayout>
+
+                <!-- Otro Bloque -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/TextView_Asegurar_Inspecciones"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:text="1. Garantizar el cumplimiento del uso adecuado de Equipos Mineros Móviles según sus especificaciones técnicas. "
+                        android:textColor="#000000" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox_cumpleAseguraInspeccion"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="  "
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/TextView_Cumple" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox_NO_cumpleAseguraInspeccion"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="  " />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/divider3"
+                    android:layout_width="match_parent"
+                    android:layout_height="6dp"
+                    android:layout_marginTop="10dp"
+                    android:background="?android:attr/listDivider"
+                    android:paddingVertical="8dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="6dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingRight="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/TextView_Garantizar_Cumplimiento"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:textColor="#000000"
+                        android:text="2. Garantizar el cumplimiento del programa de inspecciones y mantenimiento de los Equipos Mineros." />
+
+                    <CheckBox
+                        android:id="@+id/CheckBox_2_SI_Garantizar_Cumplimiento"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="  "
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/TextView_Cumple" />
+
+                    <CheckBox
+                        android:id="@+id/CheckBox_2_NO_Garantizar_Cumplimiento"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="  " />
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/divider4"
+                    android:layout_width="match_parent"
+                    android:layout_height="6dp"
+                    android:layout_marginTop="10dp"
+                    android:background="?android:attr/listDivider"
+                    android:paddingVertical="8dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="6dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingRight="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/TextView_Monitoreo_Ubicacion"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:textColor="#000000"
+                        android:text="3. Asegurar contar con operadores con experiencia, entrenados, capacitados y autorizados." />
+
+                    <CheckBox
+                        android:id="@+id/CheckBox_3_SI_Monitoreo_Ubicacion"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Si"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/TextView_Cumple" />
+
+                    <CheckBox
+                        android:id="@+id/CheckBox_3_NO_Monitoreo_Ubicacion"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="No" />
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/divider5"
+                    android:layout_width="match_parent"
+                    android:layout_height="6dp"
+                    android:layout_marginTop="10dp"
+                    android:background="?android:attr/listDivider"
+                    android:paddingVertical="8dp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="6dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingRight="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/TextView_Control_Alcotest"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:text="4. Garantizar control de fatiga y somnolencia de los conductores (pulseras de calidad sueño)."
+                        android:textColor="#000000" />
+
+                    <CheckBox
+                        android:id="@+id/CheckBox_4_SI_Control_Alcotest"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Si"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/TextView_Cumple" />
+
+                    <CheckBox
+                        android:id="@+id/CheckBox_4_NO_Control_Alcotest"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="No" />
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/divider6"
+                    android:layout_width="match_parent"
+                    android:layout_height="6dp"
+                    android:layout_marginTop="10dp"
+                    android:background="?android:attr/listDivider"
+                    android:paddingVertical="8dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="6dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingRight="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/TextView_Control_Somnolencia"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:textColor="#000000"
+                        android:text="5. Garantizar el buen funcionamiento de los equipos de comunicación (radio portátil) y la cobertura de señal." />
+
+                    <CheckBox
+                        android:id="@+id/CheckBox_5_SI_Control_Somnolencia"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Si"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/TextView_Cumple" />
+
+                    <CheckBox
+                        android:id="@+id/CheckBox_5_NO_Control_Somnolencia"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="No" />
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/divider7"
+                    android:layout_width="match_parent"
+                    android:layout_height="6dp"
+                    android:layout_marginTop="10dp"
+                    android:background="?android:attr/listDivider"
+                    android:paddingVertical="8dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="6dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingRight="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/TextView_Validacion_Experiencia"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:textColor="#000000"
+                        android:text="6. Implementación de cámaras con radar anticolisión y alarmas." />
+
+                    <CheckBox
+                        android:id="@+id/CheckBox_6_SI_Validacion_Experiencia"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Si"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/TextView_Cumple" />
+
+                    <CheckBox
+                        android:id="@+id/CheckBox_6_NO_Validacion_Experiencia"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="No" />
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/divider8"
+                    android:layout_width="match_parent"
+                    android:layout_height="6dp"
+                    android:layout_marginTop="10dp"
+                    android:background="?android:attr/listDivider"
+                    android:paddingVertical="8dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="6dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingRight="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/TextView_Comportamiento_Riesgoso"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:textColor="#000000"
+                        android:text="7. Garantizar el  monitoreo de control de las velocidades mediante sistema Wenco." />
+
+                    <CheckBox
+                        android:id="@+id/CheckBox_7_SI_Comportamiento_Riesgoso"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Si"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/TextView_Cumple" />
+
+                    <CheckBox
+                        android:id="@+id/CheckBox_7_NO_Comportamiento_Riesgoso"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="No" />
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/divider11"
+                    android:layout_width="match_parent"
+                    android:layout_height="6dp"
+                    android:layout_marginTop="10dp"
+                    android:background="?android:attr/listDivider"
+                    android:paddingVertical="8dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Actividades a Realizar:"
+                    android:textAlignment="center"
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    android:padding="8dp"
+                    />
+
+                <EditText
+                    android:id="@+id/Recibe_editTextTextMultiLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ems="10"
+                    android:gravity="start|top"
+                    android:hint="Informacion 1"
+                    android:inputType="textMultiLine" />
+
+                <EditText
+                    android:id="@+id/Recibe_EditText_Empresa_DondeLabora"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Informacion 2 "
+                    android:textColor="#000000"
+                    />
+
+                <EditText
+                    android:id="@+id/Recibe_EditText_Area_donde_Labora"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Informacion 3 "
+                    android:textColor="#000000"
+                    />
+
+                <EditText
+                    android:id="@+id/Recibe_EditText_Riesgo_Fatal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Informacion 4 "
+                    android:textColor="#000000"
+                    />
+
+            </LinearLayout>
+            <!-- ========================================================= -->
+            <!-- ========================================================= -->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/listawhite" />
+
+            <Button
+                android:id="@+id/btn_envioData"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:text="Enviar Informe"
+                android:textSize="16dp">
+
+            </Button>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

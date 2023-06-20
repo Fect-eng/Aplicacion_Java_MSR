@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Model.Control_Gen_Activity">
+
+    <include
+        layout="@layout/action_bar_toolbar">
+    </include>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="-10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/btn_transporte_personal"
+            android:layout_width="340dp"
+            android:layout_height="54dp"
+            android:textSize="14dp"
+            android:layout_marginTop="40dp"
+            android:textAllCaps="false"
+            android:background="@drawable/button_redonded"
+            android:drawableLeft="@drawable/ic_baseline_garage_24"
+            android:textAlignment="textStart"
+
+            android:text="Perdida de Control del vehículo de Transporte de personal"
+            />
+
+        <Button
+            android:id="@+id/btn_Materiales_peligrosos"
+            android:layout_width="340dp"
+            android:layout_height="54dp"
+            android:textAllCaps="false"
+            android:textSize="14dp"
+            android:layout_marginTop="6dp"
+            android:textAlignment="textStart"
+            android:background="@drawable/button_redonded"
+            android:drawableLeft="@drawable/ic_baseline_dangerous_24"
+            android:text="Perdida de control de Transporte de Materiales Peligrosos"
+            />
+
+        <Button
+
+            android:layout_width="340dp"
+            android:layout_height="53dp"
+            android:textAllCaps="false"
+            android:textSize="14dp"
+            android:background="@drawable/button_redonded"
+            android:layout_marginTop="6dp"
+            android:textAlignment="textStart"
+            android:drawableLeft="@drawable/ic_baseline_dangerous_24"
+            android:text="Perdida de control de Vehículos livianos"
+            />
+
+        <Button
+
+            android:layout_width="340dp"
+            android:layout_height="60dp"
+            android:textAllCaps="false"
+            android:background="@drawable/button_redonded"
+            android:layout_marginTop="6dp"
+            android:textSize="14dp"
+            android:textAlignment="textStart"
+            android:drawableLeft="@drawable/ic_baseline_dangerous_24"
+            android:text="Aplastamiento en actividades con Gruas e izajes"
+            />
+
+        <Button
+            android:id="@+id/btn_equipos_mineros_auxiliares"
+            android:layout_width="340dp"
+            android:layout_height="54dp"
+            android:textAllCaps="false"
+            android:textSize="14dp"
+            android:background="@drawable/button_redonded"
+            android:layout_marginTop="6dp"
+            android:textAlignment="textStart"
+            android:drawableLeft="@drawable/ic_baseline_dangerous_24"
+            android:text="Perdida de control Equipos Mineros y auxiliares"
+            />
+
+        <Button
+            android:id="@+id/btn_Accidente_explosivos"
+            android:layout_width="340dp"
+            android:layout_height="47dp"
+            android:textAllCaps="false"
+            android:textSize="14dp"
+            android:textAlignment="textStart"
+            android:background="@drawable/button_redonded"
+            android:layout_marginTop="6dp"
+            android:drawableLeft="@drawable/ic_baseline_dangerous_24"
+            android:text="Accidente con explosivos"
+            />
+
+        <Button
+            android:id="@+id/btn_Liberacion_descontrolada_energia"
+            android:layout_width="340dp"
+            android:layout_height="54dp"
+            android:textAllCaps="false"
+            android:textSize="14dp"
+            android:background="@drawable/button_redonded"
+            android:layout_marginTop="6dp"
+            android:textAlignment="textStart"
+            android:drawableLeft="@drawable/ic_baseline_dangerous_24"
+            android:text="Liberacion descontrolada de energia"
+            />
+
+        <Button
+            android:id="@+id/btn_Contacto_energia_electrica"
+            android:layout_width="340dp"
+            android:layout_height="48dp"
+            android:textAllCaps="false"
+            android:textSize="14dp"
+            android:background="@drawable/button_redonded"
+            android:layout_marginTop="6dp"
+            android:textAlignment="textStart"
+            android:drawableLeft="@drawable/ic_baseline_dangerous_24"
+            android:text="Contacto con Energía eléctrica"
+            />
+
+        <Button
+            android:id="@+id/btn_descarga_electrica_rayo"
+            android:layout_width="340dp"
+            android:layout_height="46dp"
+            android:textAllCaps="false"
+            android:textSize="14dp"
+            android:background="@drawable/button_redonded"
+            android:layout_marginTop="6dp"
+            android:textAlignment="textStart"
+            android:drawableLeft="@drawable/ic_baseline_dangerous_24"
+            android:text="Descarga eléctrica por rayo"
+            />
+
+        <Button
+            android:id="@+id/btn_persona_caida_diferente_nivel"
+            android:layout_width="340dp"
+            android:layout_height="48dp"
+            android:textAllCaps="false"
+            android:textSize="14dp"
+            android:background="@drawable/button_redonded"
+            android:layout_marginTop="6dp"
+            android:textAlignment="textStart"
+            android:drawableLeft="@drawable/ic_baseline_dangerous_24"
+            android:text="Caída de persona a diferente nivel"
+            />
+    </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

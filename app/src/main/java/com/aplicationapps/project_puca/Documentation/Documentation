@@ -1,0 +1,263 @@
+softw.puced.2023@gmail.com
+@FasterMemory123456
+
+activity_resolucion.xml
+
+Arquitectura Solida
+Web Services
+Base Datos Mysql -
+Java
+
+  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".peligros_diez_lista_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/imgButton_Control_vida"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="-5dp"
+            android:layout_gravity="center"
+            android:src="@drawable/im_riesgos_fatales"
+
+            app:civ_border_width="2dp" />
+
+        <Button
+            android:id="@+id/btn_transporte_personal"
+            android:layout_width="280dp"
+            android:layout_height="52dp"
+            android:background="@drawable/button_redonded"
+            android:text="Perdida de Control del vehículo de Transporte de personal"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textSize="13dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+
+    </LinearLayout>
+
+
+
+
+
+
+     <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/imgButton_Contdrol_vida"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="-5dp"
+                android:layout_gravity="center"
+                android:src="@drawable/im_riesgos_fatales"
+                app:civ_border_width="2dp" />
+
+            <Button
+                android:id="@+id/btn_transported_personal"
+                android:layout_width="280dp"
+                android:layout_height="52dp"
+                android:background="@drawable/button_redonded"
+                android:text="Perdida de Control del vehículo de Transporte de personal"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textSize="13dp" />
+        </LinearLayout>
+sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+
+ <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_marginTop="-100dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/imgButton_sContdrol_vida"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="-5dp"
+
+            android:src="@drawable/im_riesgos_fatales"
+            app:civ_border_width="2dp" />
+
+        <Button
+            android:id="@+id/btn_transssported_personal"
+            android:layout_width="280dp"
+            android:layout_height="52dp"
+            android:background="@drawable/button_redonded"
+            android:text="Perdida de Control del vehículo de Transporte de personal"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textSize="13dp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_marginTop="120dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/imgButton_saContdrol_vida"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="-5dp"
+
+        android:src="@drawable/im_riesgos_fatales"
+        app:civ_border_width="2dp" />
+
+    <Button
+        android:id="@+id/btn_transsported_personal"
+        android:layout_width="280dp"
+        android:layout_height="52dp"
+        android:background="@drawable/button_redonded"
+        android:text="Perdida de Control del vehículo de Transporte de personal"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textSize="13dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_marginTop="240dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/imgButston_sContdrol_vida"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="-5dp"
+
+            android:src="@drawable/im_riesgos_fatales"
+            app:civ_border_width="2dp" />
+
+        <Button
+            android:id="@+id/btn_transssaported_personal"
+            android:layout_width="280dp"
+            android:layout_height="52dp"
+            android:background="@drawable/button_redonded"
+            android:text="Perdida de Control del vehículo de Transporte de personal"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textSize="13dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_marginTop="360dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/imsgButston_sContdrol_vida"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="-5dp"
+
+            android:src="@drawable/im_riesgos_fatales"
+            app:civ_border_width="2dp" />
+
+        <Button
+            android:id="@+id/btn_traansssaported_personal"
+            android:layout_width="280dp"
+            android:layout_height="52dp"
+            android:background="@drawable/button_redonded"
+            android:text="Perdida de Control del vehículo de Transporte de personal"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textSize="13dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:src="@drawable/riesgos_criticos_10" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mi Botón" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:src="@drawable/riesgos_criticos_10" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mi Botón" />
+
+    </LinearLayout>

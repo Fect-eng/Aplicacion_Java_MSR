@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.seleccion_funciones.Seleccion_App_Activity">
+
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/action_bar_toolbar"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/include"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/include">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/imgButton_Control_vida"
+            android:layout_width="196dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="70dp"
+            android:layout_gravity="center"
+            android:src="@drawable/im_riesgos_fatales"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+
+
+        <TextView
+            android:id="@+id/txt_ControVida"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:text="Controles que salvan Vidas"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/IMGCircle_LideresRiesgo"
+            android:layout_width="196dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-180dp"
+            android:src="@drawable/lideres_riesgo"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:id="@+id/tesxstsViewxtView"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:textColor="#000000"
+            android:text="Lideres de Riesgo"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/IMGCircle_LideressRiesgo"
+            android:layout_width="196dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-180dp"
+            android:src="@drawable/notas_mosoz"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:id="@+id/tesxstssViewxtView"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:textColor="#000000"
+            android:text="Documentacion Tecnica"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:id="@+id/TextView_BuscarPersona"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:textColor="#000000"
+            android:layout_marginTop="-150dp"
+            android:text=" "
+            android:textSize="20dp"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:id="@+id/TextView_Buscar_Area_Laboral"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:textColor="#000000"
+            android:layout_marginTop="-180dp"
+            android:text=" "
+            android:textSize="20dp"
+            android:textAlignment="center"
+            />
+
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

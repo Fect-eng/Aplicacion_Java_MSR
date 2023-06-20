@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".View.Login_Activity">
+
+    <include
+        layout="@layout/action_bar_toolbar">
+    </include>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="-10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <io.github.florent37.shapeofview.shapes.ArcView
+                android:id="@+id/container_loading"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:elevation="4dp"
+                android:layout_marginTop="18dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:shape_arc_height="20dp"
+                app:shape_arc_position="bottom">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#345B9F" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/usuarios_dife">
+
+                </ImageView>
+
+            </io.github.florent37.shapeofview.shapes.ArcView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="-30dp"
+                android:padding="4dp"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtVisualizador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:textAlignment="center"
+                android:textColor="#100404"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                app:startIconDrawable="@drawable/ic_baseline_supervised_user_circle_24"
+                app:helperText="*Required"
+                app:counterEnabled="true"
+                app:counterMaxLength="20"
+                android:layout_gravity="center"
+                android:hint="Codigo Usuario"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/EDT_IDUser"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:inputType="phone"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/btn_loginAuth"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_button"
+                android:backgroundTint="#3F51B6"
+                android:padding="8dp"
+                android:text="Iniciar"
+                android:textSize="26dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="207dp"
+                tools:layout_editor_absoluteY="672dp" />
+            <!--  En este lado le agregamos un hint si vas a usar base datos -->
+
+            <TextView
+                android:id="@+id/TXT_Register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Registrarse !!"
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="26dp"
+                android:layout_gravity="center_horizontal"
+                />
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

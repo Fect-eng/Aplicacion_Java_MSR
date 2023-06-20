@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".View.Controles.Actividad_Criticas_Activity">
+
+    <include
+        layout="@layout/action_bar_toolbar">
+    </include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/EditText_Actividad_a_realizar"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:ems="10"
+            android:textColorHint="#000000"
+            android:textColor="#000000"
+            android:hint="Describa la actividad que se va a realizar"
+            android:gravity="start|top"
+            android:inputType="textMultiLine" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:textSize="14sp"
+            android:textColor="#000000"
+            android:padding="8dp"
+            android:textColorHint="#000000"
+            android:textAlignment="center"
+            android:hint="Indique el nombre de la empresa donde labora."/>
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" />
+
+        <Spinner
+            android:id="@+id/spinner_empresa"
+            android:layout_width="310dp"
+            android:layout_height="30dp"
+            android:popupBackground="@color/spinner_dropdown_background"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:textSize="14sp"
+            android:padding="8dp"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:textAlignment="center"
+            android:hint="Indique el nombre del área donde labora."/>
+
+        <Spinner
+            android:id="@+id/spinner_AreaLabora"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:popupBackground="@color/spinner_dropdown_background"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:textSize="14sp"
+            android:padding="8dp"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:textAlignment="center"
+            android:hint="Seleccione el riesgo fatal asociado a la actividad."/>
+
+        <Spinner
+            android:id="@+id/spinner_RiesgoFatal"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:popupBackground="@color/spinner_dropdown_background"/>
+
+        <Button
+            android:id="@+id/btn_siguiente_Form"
+            android:layout_width="310dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:text="Primera Parte Terminada" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

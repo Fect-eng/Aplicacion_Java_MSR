@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.Lideres_Riesgo.Lideres_RiesgoPUC_Activity">
+
+    <include
+        layout="@layout/action_bar_toolbar">
+    </include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="9dp"
+            android:src="@drawable/equipo_movil" />
+
+        <Button
+            android:id="@+id/btn_transporte_personal"
+            android:layout_width="230dp"
+            android:layout_height="54dp"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            android:background="@drawable/button_redonded"
+            android:text="Yhordan Chavez &#xA; Superintendente RRHH" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="130dp"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/materiales_peligrosos" />
+
+        <Button
+            android:id="@+id/btn_Transporte_Material_Peligroso"
+            android:layout_width="230dp"
+            android:layout_height="54dp"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            android:background="@drawable/button_redonded"
+            android:text="Gustavo Trigo &#xA; Jefe Logistica"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="190dp"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:src="@drawable/equipo_movil_vehiculos_livianos" />
+
+        <Button
+            android:id="@+id/btn_Vehiculos_livianos"
+            android:layout_width="230dp"
+            android:layout_height="54dp"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            android:background="@drawable/button_redonded"
+            android:text="Wilber Delgado &#xA; Superintendente Proyectos"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="250dp"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/gruas_y_dispositivos_de_izamiento" />
+
+        <Button
+            android:id="@+id/btn_gruas_izajes"
+            android:layout_width="230dp"
+            android:layout_height="54dp"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            android:background="@drawable/button_redonded"
+            android:text="Emerito Fernandez&#xA;Planta"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="310dp"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:src="@drawable/equipo_movil_vehiculos_pesados" />
+
+        <Button
+            android:layout_width="230dp"
+            android:layout_height="54dp"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            android:background="@drawable/button_redonded"
+            android:text="Erwitz Alvarado&#xA;Superintendente Mina"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="370dp"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:src="@drawable/accidentes_con_explosivos" />
+
+        <Button
+            android:layout_width="230dp"
+            android:layout_height="54dp"
+            android:textAllCaps="false"
+
+            android:textAlignment="center"
+            android:background="@drawable/button_redonded"
+            android:text="Tomás Maldonado&#xA;Supervisor Eléctrico"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="423dp"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:src="@drawable/energia_almacenada" />
+
+        <Button
+            android:layout_width="230dp"
+            android:layout_height="54dp"
+            android:textAllCaps="false"
+            android:layout_marginTop="6dp"
+            android:textAlignment="center"
+            android:background="@drawable/button_redonded"
+            android:text="Alexander Quinto&#xA;Superintedente Geoplan"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="482dp"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:src="@drawable/contacto_con_energia_electrica" />
+
+        <Button
+            android:layout_width="230dp"
+            android:layout_height="54dp"
+            android:textAllCaps="false"
+            android:layout_marginTop="8dp"
+            android:textAlignment="center"
+            android:background="@drawable/button_redonded"
+            android:text="Jhony Lopez&#xA;Planta"/>
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

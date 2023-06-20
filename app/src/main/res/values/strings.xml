@@ -1,0 +1,76 @@
+<resources>
+
+    <string name="app_name">Project_Puca</string>
+
+    <string-array name="numbers">
+        <item>
+            One</item>
+        <item>Two</item>
+        <item>Three</item>
+        <item>Four</item>
+        <item>Five</item>
+    </string-array>
+
+    <string-array name="areas_laborables">
+        <item>Seleccione su area Laboral</item>
+        <item>SSOMA</item>
+        <item>Logistica</item>
+        <item>Proyectos</item>
+        <item>RRHH</item>
+        <item>Mina</item>
+        <item>Planta</item>
+        <item>Geoplan</item>
+        <item>Laboratorio</item>
+        <item>Goetecnia</item>
+        <item>Mantenimiento</item>
+        <item>Sistemas</item>
+        <item>Seguridad Patrimonial</item>
+    </string-array>
+
+    <string-array name="empresa_laboral">
+        <item>Seleccione su Respuesta</item>
+        <item>ADECCO PERU</item>
+        <item>AMAZONS</item>
+        <item>COMERCIALIZADORA FRAD</item>
+        <item>CRUZ DEL SUR</item>
+        <item>ELECTRODATA</item>
+        <item>ESSAC</item>
+        <item>EXSA</item>
+        <item>FERREYROS</item>
+        <item>INVERITAS GLOBAL HOLDINGS</item>
+        <item>J&amp;V RESGUARDO</item>
+        <item>MINSUR</item>
+        <item>MULTISERVICIOS Y CONTRATISTAS SAILORS</item>
+        <item>NEUMA</item>
+        <item>PEGASUS RENT A CAR</item>
+        <item>PULSO CORPORACIÓN MÉDICA</item>
+        <item>SGS DEL PERU</item>
+        <item>SODEXO PERU</item>
+        <item>TRANSPORTES ANGEL IBARCENA</item>
+    </string-array>
+
+    <string-array name="Riesgo_Fatal_Actividad">
+        <item>Seleccione su Respuesta</item>
+        <item>Perdida de control del vehículo de Transporte de personal.</item>
+        <item>Perdida de control de Transporte de Materiales Peligrosos.</item>
+        <item>Deslizamiento de terreno/rocas.</item>
+        <item>Perdida de control de Vehículos livianos.</item>
+        <item>Exposición a atmosferas peligrosas en Espacio confinado.</item>
+        <item>Aplastamiento en actividades con Gruas e izajes.</item>
+        <item>Perdida de control Equipos Mineros y auxiliares.</item>
+        <item>Accidente con explosivos.</item>
+        <item>Liberacion descontrolada de energia.</item>
+        <item>Contacto con Energía eléctrica</item>
+        <item>Descarga eléctrica por rayo.</item>
+        <item>Caída de persona a diferente nivel.</item>
+        <item>Inadecuada atención de emergencias.</item>
+        <item>PEGASUS RENT A CAR</item>
+        <item>Incendios.</item>
+        <item>Atrapamiento en actividades de Excavaciones y Zanjas.</item>
+        <item>Contacto con sustancias quimicas peligrosas.</item>
+        <item>Accidentes durante la instalación de geosintéticos.</item>
+        <item>Falla en integridad estructural.</item>
+        <item>Caída de personas a fuentes de agua.</item>
+        <item>Contagio por Agentes Biológicos.</item>
+    </string-array>
+</resources>
